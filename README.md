@@ -14,7 +14,7 @@ R (>= 3.0.1)
 ### How to Install within R
 ```{r}
 require(devtools)
-source_url("https://github.com/RayDebashree/metaUSAT/blob/master/CIMBAL_v0.6.R?raw=TRUE")
+source_url("https://github.com/RayDebashree/CIMBAL/blob/master/CIMBAL_v0.6.R?raw=TRUE")
 ```
 It is recommended to download/copy the stand-alone R program in this repository, save it in your local directory of choice and `source()` it from your local directory. When a new version of the software is available, older versions may be removed from this repository, and the above `devtools::source_url()` line may not work.
 
@@ -22,3 +22,12 @@ It is recommended to download/copy the stand-alone R program in this repository,
 ### Changes
 Version 0.6 - March 31, 2021
 > Software release intended for internal ECHO use only.
+
+### Notes
+1. This version is meant for ECHO internal use only. See attached slides on implementation of CIMBAL.
+2. Requires two sets of estimates (i.e., effect estimate and its standard error) of exposure-outcome association:
+    a. crude or unadjusted estimates
+    b. fully adjusted estimates
+4. Current implementation requires at least 20 cohorts with fully adjusted estimates.
+
+Contact **dray@jhu.edu** for any question on CIMBAL or to report any issue/feedback.
