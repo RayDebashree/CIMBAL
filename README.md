@@ -1,7 +1,7 @@
 # CIMBAL
 
 ### Description
-CIMBAL is a new statistical approach for meta-analyzing cohorts or studies with confounder imbalance such as those found in cohort collaborations. This requires two sets of cohorts: one with unadjusted or crude estimate of the exposure-outcome association, and another with fully adjusted estimate of the same association. This software is based on the following manuscript: 
+CIMBAL is a new statistical approach for meta-analyzing cohorts or studies with confounder imbalance such as those found in cohort collaborations. This requires two sets of cohorts: one with unadjusted or crude estimate of the exposure-outcome association, and another with fully adjusted estimate of the same association. It is also relevant for a meta-analysis of randomized controlled trials, where the imbalance in measuring the effect modifiers across trials is prevalent. This program is based on the following manuscript: 
 
 Ray et al. (2022) "Meta-analysis under imbalance in measurement of confounders in cohort studies using only summary-level data". *In revision*.
 
