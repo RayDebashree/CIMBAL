@@ -22,7 +22,7 @@ It is recommended to download/copy the stand-alone R program in this repository,
 ### Changes
 Version 0.7 - March 17, 2022
 > First public release of the software.
-Note, the files were reuploaded on March 26, 2022 after fixing a typo in the manual file and in the name of the R file.
+Note, the files were reuploaded on March 26, 2022 after fixing typos in the manual file and in the name of the R file.
 
 Version 0.6 - March 31, 2021
 > Software release intended for internal ECHO use only.
