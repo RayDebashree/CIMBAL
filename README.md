@@ -14,7 +14,7 @@ R (>= 3.0.1)
 ### How to Install within R
 ```{r}
 require(devtools)
-source_url("https://github.com/RayDebashree/CIMBAL/blob/master/CIMBAL_v0.7.R?raw=TRUE")
+source_url("https://github.com/RayDebashree/CIMBAL/blob/main/CIMBAL_v0.7.R?raw=TRUE")
 ```
 It is recommended to download/copy the stand-alone R program in this repository, save it in your local directory of choice and `source()` it from your local directory. When a new version of the software is available, older versions may be removed from this repository, and the above `devtools::source_url()` line may not work.
 
