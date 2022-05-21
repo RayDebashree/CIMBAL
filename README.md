@@ -3,7 +3,7 @@
 ### Description
 CIMBAL is a new statistical approach for meta-analyzing cohorts or studies with confounder imbalance such as those found in cohort collaborations. This requires two sets of cohorts: one with unadjusted or crude estimate of the exposure-outcome association, and another with fully adjusted estimate of the same association. It is also relevant for a meta-analysis of randomized controlled trials, where the imbalance in measuring the effect modifiers across trials is prevalent. This program is based on the following manuscript: 
 
-Ray et al. (2022) "Meta-analysis under imbalance in measurement of confounders in cohort studies using only summary-level data". *BMC Medical Research Methodology* (in press), https://doi.org/10.1186/s12874-022-01614-9.
+Ray et al. (2022) "Meta-analysis under imbalance in measurement of confounders in cohort studies using only summary-level data". *BMC Medical Research Methodology*, 22:143, DOI https://doi.org/10.1186/s12874-022-01614-9.
 
 **Key Words:** Collective analysis; Confounders; Confounder imbalance; Data integration; Meta-analysis; Omitted variable bias
 
@@ -30,8 +30,8 @@ Version 0.6 - March 31, 2021
 ### Notes
 1. Check the manuscript to understand when CIMBAL may or may not be appropriate to use, and how to interpret its results.
 2. Requires two sets of estimates (i.e., effect estimate and its standard error) of exposure-outcome association:
-    a. crude or unadjusted estimates
-    b. fully adjusted estimates
+    1. crude or unadjusted estimates
+    2. fully adjusted estimates
 2. Current implementation requires a few cohorts with fully adjusted estimates. We recommend having at least 20 such cohorts.
 
 Contact **dray@jhu.edu** for any question on CIMBAL or to report any issue/feedback.
